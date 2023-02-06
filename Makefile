@@ -218,6 +218,7 @@ size:
 
 install: bpgenc bpgdec
 	install -s -m 755 $^ $(prefix)/bin
+	install -s -m 644 bpg.so $(prefix)/lib
 
 CLEAN_DIRS=doc html libavcodec libavutil \
      jctvc jctvc/TLibEncoder jctvc/TLibVideoIO jctvc/TLibCommon jctvc/libmd5
