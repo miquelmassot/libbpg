@@ -1,0 +1,11 @@
+# Compilation outputs
+*.o
+*.a
+*.so
+*.d
+*.out/
+
+# Binaries of this package
+bpgdec
+bpgenc
+bpgview
