@@ -7,7 +7,7 @@
 # Enable x265 for the encoder
 USE_X265=y
 # Enable the JCTVC code (best quality but slow) for the encoder
-#USE_JCTVC=y
+USE_JCTVC=y
 # Compile bpgview (SDL and SDL_image libraries needed)
 USE_BPGVIEW=y
 # Enable it to use bit depths > 12 (need more tests to validate encoder)
